@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Oleo+Script+Swash+Caps&family=Sansita+Swashed:wght@600&family=Satisfy&family=Varela+Round&family=Yanone+Kaffeesatz:wght@300;600&family=Zen+Loop:ital@1&display=swap');
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    cursor: default;
+}
+
+nav {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    border-radius: 50px;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 100px;
+    background-color: rgb(1, 1, 1);
+    font-weight: bolder;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+
+nav ul li {
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    padding: 0 11px;
+    left: 0%;
+    position: relative;
+}
+
+.navv:hover {
+    color: rgba(227, 28, 83, 255);
+    cursor: pointer;
+}
+
+.navtext {
+    display: flex;
+    left: 0%;
+}
+
+.brand img {
+    width: 80px;
+    height: 65px;
+    border-radius: 150px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.brand {
+    font-family: 'Caveat', cursive;
+    color: rgba(227, 28, 83, 255);
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+}
+
+.container {
+    min-height: 75vh;
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Satisfy', cursive;
+    font-weight: 100;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background: url('background2.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bottom {
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons {
+    margin-top: 14px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+.fa-circle-play:hover {
+    color: rgba(227, 28, 83, 255);
+}
+
+.fa-backward-step:hover {
+    color: rgba(227, 28, 83, 255);
+}
+
+.fa-forward-step:hover {
+    color: rgba(227, 28, 83, 255);
+}
+
+.fa-circle-pause {
+    color: rgba(227, 28, 83, 255);
+}
+
+#MyprogressBar {
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songitem {
+    height: 50px;
+    display: flex;
+    background-color: aliceblue;
+    color: black;
+    margin: 12px 0px;
+    border-radius: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.songsitemcontainer {
+    margin-top: 33px;
+}
+
+.songitem img {
+    width: 50px;
+    height: 40px;
+    border-radius: 40px;
+    margin: 5px 10px;
+}
+
+.timestamp {
+    margin: 0px 23px;
+}
+
+.songlistplay i {
+    cursor: pointer;
+}
+
+.songsinfo {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.songsinfo img {
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
